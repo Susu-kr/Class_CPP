@@ -1,2 +1,8 @@
-﻿  8-13.cpp
+﻿  Ex6.cpp
+c:\users\qjack\source\class_cpp\chapter8\ex6.cpp(35): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  c:\users\qjack\source\class_cpp\chapter8\ex6.cpp(16): note: 컴파일 중인 함수 템플릿 인스턴스화 'void *length<const char>(T *[],int)'에 대한 참조를 확인하십시오.
+          with
+          [
+              T=const char
+          ]
   Chapter8.vcxproj -> C:\Users\qjack\source\Class_CPP\Chapter8\Debug\Chapter8.exe
