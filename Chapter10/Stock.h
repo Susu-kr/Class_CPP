@@ -20,5 +20,5 @@ public:
 	void sell(long num, double price);
 	void update(double price);
 	void Show() const;
-	
+	Stock& Copy(Stock & s1);
 };

@@ -99,3 +99,8 @@ void Stock::Show() const
 	cout.setf(orig, ios_base::floatfield);
 	cout.precision(prec);
 }
+
+Stock & Stock::Copy(Stock & s1)
+{
+	// TODO: 여기에 반환 구문을 삽입합니다.
+}
