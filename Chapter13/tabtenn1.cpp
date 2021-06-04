@@ -14,3 +14,10 @@ RatedPlayer::RatedPlayer(unsigned int r, const string & fn, const string & ln, b
 }
 
 RatedPlayer::RatedPlayer(unsigned int r, const TableTennisPlayer & tp) : TableTennisPlayer(tp), rating(r) {}
+
+void RatedPlayer::Name() const
+{
+	std::cout << "재정의 name 사용 : ";
+	std::cout << Getfirstname() << ", " << Getlastname();
+
+}
